@@ -24,11 +24,15 @@
         >
         <nav>
           <ul class="buttons-navi" style="list-style: none">
-            <li class="buttons-navi-link"><a class="links underline" href="./index.html">Agencja</a></li>
+            <li class="buttons-navi-link">
+              <a class="links underline" href="./index.html">Agencja</a>
+            </li>
             <li class="buttons-navi-link">
               <a class="links" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="buttons-navi-link"><a class="links" href="#">Kontakt</a></li>
+            <li class="buttons-navi-link">
+              <a class="links" href="#">Kontakt</a>
+            </li>
           </ul>
         </nav>
         <ul class="buttons-contact" style="list-style: none">
@@ -139,7 +143,9 @@
                 width="370"
                 height="294"
               />
-              <div class="segregate-photography-discription">APLIKACJE KOMPUTEROWE</div>
+              <div class="segregate-photography-discription">
+                APLIKACJE KOMPUTEROWE
+              </div>
             </li>
             <li class="segregate-photography">
               <img
@@ -148,7 +154,9 @@
                 width="370"
                 height="294"
               />
-              <div class="segregate-photography-discription">APLIKACJE MOBILNE</div>
+              <div class="segregate-photography-discription">
+                APLIKACJE MOBILNE
+              </div>
             </li>
             <li class="segregate-photography">
               <img
@@ -157,7 +165,9 @@
                 width="370"
                 height="294"
               />
-              <div class="segregate-photography-discription">ROZWIĄZANIA GRAFICZNE</div>
+              <div class="segregate-photography-discription">
+                ROZWIĄZANIA GRAFICZNE
+              </div>
             </li>
           </ul>
         </div>
@@ -197,7 +207,8 @@
                       <use
                         class="icon-team"
                         href="./image/icons.svg#icon-twiter"
-                      ></use></svg></a>
+                      ></use></svg
+                  ></a>
                 </li>
                 <li class="icone-style">
                   <a class="elipse" href="#">
@@ -205,7 +216,8 @@
                       <use
                         class="icon-team"
                         href="./image/icons.svg#icon-facebook"
-                      ></use></svg></a>
+                      ></use></svg
+                  ></a>
                 </li>
                 <li class="icone-style">
                   <a class="elipse" href="#">
@@ -249,7 +261,8 @@
                       <use
                         class="icon-team"
                         href="./image/icons.svg#icon-twiter"
-                      ></use></svg></a>
+                      ></use></svg
+                  ></a>
                 </li>
                 <li class="icone-style">
                   <a class="elipse" href="#">
@@ -257,7 +270,8 @@
                       <use
                         class="icon-team"
                         href="./image/icons.svg#icon-facebook"
-                      ></use></svg></a>
+                      ></use></svg
+                  ></a>
                 </li>
                 <li class="icone-style">
                   <a class="elipse" href="#">
@@ -301,7 +315,8 @@
                       <use
                         class="icon-team"
                         href="./image/icons.svg#icon-twiter"
-                      ></use></svg></a>
+                      ></use></svg
+                  ></a>
                 </li>
                 <li class="icone-style">
                   <a class="elipse" href="#">
@@ -309,7 +324,8 @@
                       <use
                         class="icon-team"
                         href="./image/icons.svg#icon-facebook"
-                      ></use></svg></a>
+                      ></use></svg
+                  ></a>
                 </li>
                 <li class="icone-style">
                   <a class="elipse" href="#">
@@ -353,7 +369,8 @@
                       <use
                         class="icon-team"
                         href="./image/icons.svg#icon-twiter"
-                      ></use></svg></a>
+                      ></use></svg
+                  ></a>
                 </li>
                 <li class="icone-style">
                   <a class="elipse" href="#">
@@ -361,7 +378,8 @@
                       <use
                         class="icon-team"
                         href="./image/icons.svg#icon-facebook"
-                      ></use></svg></a>
+                      ></use></svg
+                  ></a>
                 </li>
                 <li class="icone-style">
                   <a class="elipse" href="#">
@@ -469,7 +487,8 @@
             <li class="light">
               <a class="ellipse" href="#"
                 ><svg class="icons-footer" width="44" height="44">
-                  <use href="./image/icons.svg#icon-in"></use></svg></a>
+                  <use href="./image/icons.svg#icon-in"></use></svg
+              ></a>
             </li>
           </ul>
         </div>
@@ -478,12 +497,61 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>X</button>
+        <form class="form">
+          <label class="form-label">
+            <span class="label-text"
+              >Zostaw swoje dane w formularzu poniżej</span
+            >
+          </label>
+          <label class="form-label">
+            <span class="label-text">Imię</span>
+            <input
+              type="text"
+              class="form-input"
+              name="username"
+              placeholder=""
+              minlength="3"
+              required
+            />
+          </label>
+
+          <label class="form-label">
+            <span class="label-text">Telefon</span>
+            <input
+              type="text"
+              class="form-input"
+              name="telefon"
+              placeholder=""
+              minlength="3"
+              required
+            />
+          </label>
+
+          <label class="form-label">
+            <span class="label-text">Email</span>
+            <input
+              type="email"
+              class="form-input"
+              name="mail"
+              placeholder=""
+              required
+            />
+          </label>
+          <label class="form-label">
+            <span class="label-text">Komentarz</span>
+            <input
+              type="email"
+              class="form-input"
+              name="mail"
+              placeholder=""
+              required
+            />
+          </label>
+          <button type="button" class="close-btn" data-modal-close>X</button>
+        </form>
       </div>
     </div>
 
     <script src="./js/modal.js"></script>
-
   </body>
-
 </html>
