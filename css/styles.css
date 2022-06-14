@@ -750,6 +750,18 @@ font-size: 16px;
 outline: none;
 }
 
+.modal-topic{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-top: 40px;
+}
+
 .form-input::placeholder {
 color: #9e9e9e;
 }
