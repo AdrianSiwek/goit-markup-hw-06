@@ -806,3 +806,40 @@ footer {
 .is-hidden .modal {
   transform: translate(-100%);
 }
+
+.form-label {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 16px;
+        }
+
+        .label-text {
+            margin-bottom: 4px;
+        }
+
+.form-input {
+  padding: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  top: 450px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form-input-k{
+width: 448px;
+height: 120px;
+left: 576px;
+top: 518px;
+
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+.form-input::placeholder {
+color: #9e9e9e;
+}
