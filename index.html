@@ -505,6 +505,7 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
         <form class="form">
           <label class="form-label">
             <span class="modal-topic"
@@ -547,15 +548,26 @@
           </label>
           <label class="form-label">
             <span class="label-text">Komentarz</span>
-            <input
-              type="email"
-              class="form-input-k"
-              name="mail"
-              placeholder=""
-              required
-            />
+            <textarea
+              name="feedback"
+              rows="6"
+              placeholder="Wprowadź tekst"></textarea>
           </label>
-          <button type="button" class="close-btn" data-modal-close>X</button>
+          <div class="consent">
+            <input
+              class="checkbox custom-input hidden"
+              type="checkbox"
+              name="consent"
+              value="zgody"
+              required />
+
+            <label for="consent">
+              Oświadczam iż akceptuję
+              <a href="#regulamin">Regulamin</a> i
+              <a href="#polityka">Politykę Prywatności</a>.
+            </label>
+          </div>
+          <button class="submit" type="submit">Wyślij</button>
         </form>
       </div>
     </div>
