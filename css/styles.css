@@ -808,6 +808,7 @@ footer {
   background-color: #ffffff;
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   transition-property: transform;
+  border-radius: 4px;
 }
 
 .is-hidden {
@@ -860,6 +861,8 @@ margin-bottom: 4px;
 }
 
 .modal-topic{
+  display: flex;
+  justify-content: center;
   margin-top: 40px;
   margin-bottom: 12px;
   font-family: "Roboto";
@@ -869,6 +872,7 @@ margin-bottom: 4px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--text-main-color);
 }
 
 .form-input {
@@ -967,7 +971,7 @@ border: 1px solid var(--brand-mlight-color);
   
 }
 
-.consent > label {
+.license > label {
   margin-top: 0;
   font-family: "Roboto";
   font-style: normal;
@@ -978,8 +982,34 @@ border: 1px solid var(--brand-mlight-color);
   color: #757575;
 }
 
+.icon-formating-name{
+  position: absolute;
+  left: 12px;
+  top: 60px;
+}
+
+.icon-formating-phone{
+  position: absolute;
+  left: 12px;
+  top: 128px
+}
+
+.icon-formating-email{
+  position: absolute;
+  left: 12px;
+  top: 195px;
+}
+
 .submit:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+/* checkbox stylizacja*/
+.hidden {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 
 
