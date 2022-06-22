@@ -1007,7 +1007,7 @@ border: 1px solid var(--brand-mlight-color);
 /* checkbox stylizacja*/
 .policy-accept {
     font-size: 14px;
-    color: var(--detail-color);
+    color:#212121;
     line-height: 1.71;
 }
 .form_part_checkbox {
@@ -1035,7 +1035,7 @@ border: 1px solid var(--brand-mlight-color);
     outline: none;
     border: 1px solid var(--brand-mlight-color);
     border-radius: 2px;
-    background-image: url();
+    background-image: url(../image/vector1.png);
     background-position: 50% 50%;
     background-size: cover;
 }
