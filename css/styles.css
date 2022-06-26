@@ -824,7 +824,7 @@ footer {
   width: 30px;
   height: 30px;
   background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -985,19 +985,19 @@ textarea:focus {
 .icon-formating-name {
   position: absolute;
   left: 12px;
-  top: 60px;
+  top: 63px;
 }
 
 .icon-formating-phone {
   position: absolute;
   left: 12px;
-  top: 128px;
+  top: 133px;
 }
 
 .icon-formating-email {
   position: absolute;
   left: 12px;
-  top: 195px;
+  top: 200px;
 }
 
 .submit:hover {
@@ -1025,6 +1025,6 @@ textarea:focus {
   background-size: cover;
 }
 
-.checkbox_input{
+.checkbox_input {
   margin-right: 8px;
 }
