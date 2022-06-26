@@ -887,6 +887,7 @@ footer {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   text-indent: 42px;
+  cursor: pointer;
 }
 
 .form-input-k {
@@ -906,6 +907,7 @@ footer {
   letter-spacing: 0.03em;
   transition: var(--transition);
   transition-property: border, fill;
+  cursor: pointer;
 }
 
 textarea {
@@ -924,6 +926,7 @@ textarea {
   color: #757575;
   transition: var(--transition);
   transition-property: border;
+  cursor: pointer;
 }
 
 textarea:focus {
@@ -1012,7 +1015,6 @@ textarea:focus {
   height: 15px;
   outline: 1px solid #212121;
   margin-right: 8px;
-  cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox_input:checked + .label::before {
